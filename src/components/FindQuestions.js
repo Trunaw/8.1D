@@ -74,7 +74,7 @@ const FindQuestions = () => {
                 {expandedId === q.id && (
                   <div>
                     <p>Full Article: {q.article}</p>
-                    {q.imageUrl && <img src={q.imageUrl} alt="Post Image" style={{ maxWidth: '100%' }} />}
+                 
                     {/* Add answer input or solutions here if needed */}
                   </div>
                 )}
